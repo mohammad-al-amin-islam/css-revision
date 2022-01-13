@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom</title>
+    <style>
+        :root{
+            --main-color:yellow;
+            --background-color:slategray;
+        }
+        h1{
+            color: var(--main-color);
+        }
+        p{
+            color: var(--main-color);
+        }
+        footer{
+            color: springgreen;
+            clear: both;
+        }
+        aside{
+            background-color: chocolate;
+            width: 200px;
+        }
+        .blogs{
+            background-color: coral;
+            width: calc(100% - 200px);
+        }
+        .side-nav,.blogs{
+            float: left;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>I am trying to learn custom</h1>
+    </header>
+    <main>
+        <section>
+            <p>This is paragraph</p>
+        </section>
+        <section>
+            <aside class="side-nav">
+
+                <h3>this is h3</h3>
+            </aside>
+            <div class="blogs">
+                <p>this is paragraph</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h3>this is footer area</h3>
+    </footer>
+</body>
+</html>
